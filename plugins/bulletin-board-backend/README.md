@@ -4,7 +4,7 @@ Add the backend plugin package:
 
 ```bash
 # From your Backstage root directory
-yarn add --cwd packages/backend backstage-plugin-bulletin-board-backend
+yarn --cwd packages/backend add backstage-plugin-bulletin-board-backend
 ```
 
 Create a file in `packages/backend/src/plugins/bulletin-board.ts`:
